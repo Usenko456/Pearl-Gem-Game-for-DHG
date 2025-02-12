@@ -1,0 +1,12 @@
+# ninja log v5
+50	369	7610853355912479	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	cfcdc42ccccc6288
+370	516	7610853357505317	C:/GitHubDesktop/Pearl-Gem-Game-for-DHG/Pearl-Gem-Game-for-DHG/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/p3lx3j6x/obj/arm64-v8a/libswappywrapper.so	acd302955015121b
+12	856	7610853360793310	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	628a6c468f071661
+17	876	7610853361013363	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	345f4d9b6c93567d
+9	883	7610853361063375	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	c66f0189961fd93f
+28	908	7610853361213411	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	c936666998394c1e
+37	967	7610853361959671	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	4e931c6375a350a6
+5	1030	7610853362578740	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	d334918f7306e1a6
+22	1197	7610853364245894	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	b344b2e70ce8ae6e
+0	1324	7610853365516787	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	8bd6aa574c8414ca
+1324	1401	7610853366340521	C:/GitHubDesktop/Pearl-Gem-Game-for-DHG/Pearl-Gem-Game-for-DHG/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/p3lx3j6x/obj/arm64-v8a/libgame.so	5e3fa5d4c60f549c

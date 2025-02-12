@@ -1,0 +1,1 @@
+C:\GitHubDesktop\Pearl-Gem-Game-for-DHG\Pearl-Gem-Game-for-DHG\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\p3lx3j6x\obj\arm64-v8a

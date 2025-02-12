@@ -1,15 +1,18 @@
 ﻿using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
+using static UnityEngine.Rendering.DebugUI;
 
 public class BallShooter : MonoBehaviour
 {
+    public GameObject Panel;
     public LineRenderer lineRenderer;
     public Transform spawnPoint;
     public GameObject ballPrefab;
-    public float baseForce = 9f;
-    public float gravity = -9.81f;
-    public float mass = 1f;
+    [SerializeField] float baseForce = 9f;
+    [SerializeField] float gravity = -9.81f;
+    [SerializeField] float mass = 0.9f;
     public static GameObject currentBall;
     private bool ballLaunched = false;
     private Vector3 launchDirection;
@@ -19,11 +22,20 @@ public class BallShooter : MonoBehaviour
 
     private void Start()
     {
+        Panel.SetActive(false);
         SpawnBall();
+    }
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     private void Update()
     {
-        
+        if (bulletsleft == 0 || GameObject.FindGameObjectsWithTag("Finish").Length == 0)
+        {
+            Panel.SetActive(true);
+        }
+
         if (currentBall != null && !IsBallOnScreen(currentBall))
         {
             Destroy(currentBall);
@@ -71,6 +83,15 @@ public class BallShooter : MonoBehaviour
         currentBall = Instantiate(ballPrefab, spawnPoint.position, Quaternion.identity);
         currentBall.GetComponent<Rigidbody>().isKinematic = true;
         ballLaunched = false;
+        Renderer ballRenderer = currentBall.GetComponent<Renderer>();
+        if (ballRenderer != null)
+        {
+            Material lastMaterial = ChangeBallMaterial.GetLastMaterial();
+            if (lastMaterial != null)
+            {
+                ballRenderer.material = lastMaterial;
+            }
+        }
     }
 
      void ShootBall(Vector3 touchPos)

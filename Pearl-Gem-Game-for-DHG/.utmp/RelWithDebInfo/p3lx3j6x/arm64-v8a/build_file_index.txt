@@ -1,0 +1,3 @@
+C:\GitHubDesktop\Pearl-Gem-Game-for-DHG\Pearl-Gem-Game-for-DHG\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\GitHubDesktop\Pearl-Gem-Game-for-DHG\Pearl-Gem-Game-for-DHG\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\FramePacing\CMakeLists.txt
+C:\GitHubDesktop\Pearl-Gem-Game-for-DHG\Pearl-Gem-Game-for-DHG\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
